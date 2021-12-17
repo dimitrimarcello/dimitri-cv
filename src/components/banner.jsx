@@ -2,6 +2,7 @@ import { faCalendar, faEnvelope, faGlobeEurope, faPhone } from '@fortawesome/fre
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import React, { Component } from 'react';
 import './banner.scss';
+import Rating from './rating';
 
 class Banner extends Component {
     constructor(props) {
@@ -28,6 +29,61 @@ class Banner extends Component {
                         </li>
                         <li>
                             <FontAwesomeIcon icon={faCalendar}></FontAwesomeIcon> <p>Born: 30-11-2000</p>
+                        </li>
+                    </ul>
+                </div>
+                <div className="skills-box">
+                    <p className="title-text">Skills</p>
+                    <ul className="skills-list">
+                        <li>
+                            <p>C#</p> <Rating rating={5}></Rating>
+                        </li>
+                        <li>
+                            <p>C++</p> <Rating rating={2}></Rating>
+                        </li>
+                        <li>
+                            <p>Python</p> <Rating rating={3}></Rating>
+                        </li>
+                        <li>
+                            <p>Javascript</p> <Rating rating={5}></Rating>
+                        </li>
+                        <li>
+                            <p>Php</p> <Rating rating={4}></Rating>
+                        </li>
+                        <li>
+                            <p>Scss/Css</p> <Rating rating={4}></Rating>
+                        </li>
+                        <li>
+                            <p>Adobe Animate</p> <Rating rating={3}></Rating>
+                        </li>
+                        <li>
+                            <p>Adobe Photoshop</p> <Rating rating={4}></Rating>
+                        </li>
+                        <li>
+                            <p>Adobe Ilustrate</p> <Rating rating={3}></Rating>
+                        </li>
+                    </ul>
+                </div>
+                <div className="traits-box">
+                    <p className="title-text">Traits</p>
+                    <ul>
+                        <li>
+                            <p>Patience</p>
+                        </li>
+                        <li>
+                            <p>Team Work</p>
+                        </li>
+                        <li>
+                            <p>Documenting</p>
+                        </li>
+                        <li>
+                            <p>Creative</p>
+                        </li>
+                        <li>
+                            <p>Following Coding Conventions</p>
+                        </li>
+                        <li>
+                            <p>Punctual</p>
                         </li>
                     </ul>
                 </div>
