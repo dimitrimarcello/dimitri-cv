@@ -1,0 +1,21 @@
+.banner-container{
+    position: absolute;
+    min-height: 100%;
+    width: 20%;
+    background-color: rgb(129, 129, 252);
+    text-align: center;
+}
+
+.user-img{
+    display: block;
+    width: 80%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    border-radius: 50%;
+}
+
+.title-text{
+    font-size: 150%;
+}

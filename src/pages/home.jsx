@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import Banner from '../components/banner';
 
 class Home extends Component {
     constructor(props) {
@@ -8,11 +9,9 @@ class Home extends Component {
 
     render() { 
         return ( 
-            <React.Fragment>
-                <div>
-                    Hello world
-                </div>
-            </React.Fragment>
+            <div>
+                Hello world
+            </div>
         );
     }
 }
