@@ -1,3 +1,9 @@
+# About the app
+
+This app was made as a portfolio for the person Dimitri van Manen. It uses React and Bootsrap and also custom scss.
+It will illustrate information about Dimitri van Manen. Such as projects and skills. It also contains a bio about Dimitri
+van Manen
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
