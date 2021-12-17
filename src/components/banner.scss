@@ -3,6 +3,9 @@
     min-height: 100%;
     width: 20%;
     background-color: rgb(129, 129, 252);
+}
+
+.banner-title{
     text-align: center;
 }
 
@@ -16,6 +19,13 @@
     border-radius: 50%;
 }
 
+.contact-box{
+    position: relative;
+    width: 100%;
+    text-align: left;
+    padding-left: 10px;
+}
+
 .title-text{
-    font-size: 150%;
+    font-size: 1.5vw;
 }
