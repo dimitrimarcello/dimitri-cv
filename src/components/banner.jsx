@@ -53,15 +53,6 @@ class Banner extends Component {
                         <li>
                             <p>Scss/Css</p> <Rating rating={4}></Rating>
                         </li>
-                        <li>
-                            <p>Adobe Animate</p> <Rating rating={3}></Rating>
-                        </li>
-                        <li>
-                            <p>Adobe Photoshop</p> <Rating rating={4}></Rating>
-                        </li>
-                        <li>
-                            <p>Adobe Ilustrate</p> <Rating rating={3}></Rating>
-                        </li>
                     </ul>
                 </div>
                 <div className="traits-box">
@@ -84,6 +75,32 @@ class Banner extends Component {
                         </li>
                         <li>
                             <p>Punctual</p>
+                        </li>
+                    </ul>
+                </div>
+                <div className="tools-box">
+                    <p className="title-text">Tools/Frameworks</p>
+                    <ul className="tools-list">
+                        <li>
+                            <p>React</p> <Rating rating={4}></Rating>
+                        </li>
+                        <li>
+                            <p>Laravel</p> <Rating rating={3}></Rating>
+                        </li>
+                        <li>
+                            <p>Unity</p> <Rating rating={5}></Rating>
+                        </li>
+                        <li>
+                            <p>Unreal Engine</p> <Rating rating={4}></Rating>
+                        </li>
+                        <li>
+                            <p>Adobe Animate</p> <Rating rating={3}></Rating>
+                        </li>
+                        <li>
+                            <p>Adobe Photoshop</p> <Rating rating={4}></Rating>
+                        </li>
+                        <li>
+                            <p>Adobe Ilustrate</p> <Rating rating={3}></Rating>
                         </li>
                     </ul>
                 </div>

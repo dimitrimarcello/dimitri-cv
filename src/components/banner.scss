@@ -1,8 +1,9 @@
 .banner-container{
-    position: absolute;
+    position: relative;
     min-height: 100%;
-    width: 20%;
+    max-width: 290px;
     background-color: rgb(129, 129, 252);
+    display: inline-block;
 }
 
 .banner-title{
@@ -47,6 +48,17 @@
     padding-left: 20px;
 }
 
+.tools-box{
+    text-align: left;
+    position: relative;
+    width: 100%;
+    padding-left: 20px;
+}
+
+.tools-list p {
+    display: inline-block;
+}
+
 .title-text{
-    font-size: 1.5vw;
+    font-size: 20px
 }
