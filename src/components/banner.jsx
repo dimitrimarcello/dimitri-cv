@@ -164,7 +164,7 @@ class Banner extends Component {
                     <p className="title-text">Curriculum vitea</p>
                 </div>
                 <div style={{textAlign: "center"}}>
-                <FontAwesomeIcon icon={faUser}></FontAwesomeIcon> <a style={{cursor: "pointer"}} id='startInfo' onClick={((e) => this.toggleInfo(e))}>Personal</a> | <FontAwesomeIcon icon={faLaptop}></FontAwesomeIcon> <a style={{cursor: "pointer"}} onClick={this.toggleInfo}>Profesional</a>
+                <FontAwesomeIcon icon={faUser}></FontAwesomeIcon> <a style={{cursor: "pointer", color: "blue"}} id='startInfo' onClick={((e) => this.toggleInfo(e))}>Personal</a> | <FontAwesomeIcon icon={faLaptop}></FontAwesomeIcon> <a style={{cursor: "pointer", color: "blue"}} onClick={this.toggleInfo}>Profesional</a>
                 </div>
                 {this.renderProfileInformation()}
             </div>
