@@ -1,4 +1,4 @@
-import { faCalendar, faEnvelope, faGlobeEurope, faPhone, faArrowRight } from '@fortawesome/free-solid-svg-icons';
+import { faCalendar, faEnvelope, faGlobeEurope, faLaptop, faPersonBooth, faPhone, faUser } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import React, { Component } from 'react';
 import './banner.scss';
@@ -164,7 +164,7 @@ class Banner extends Component {
                     <p className="title-text">Curriculum vitea</p>
                 </div>
                 <div style={{textAlign: "center"}}>
-                    <a style={{cursor: "pointer"}} id='startInfo' onClick={((e) => this.toggleInfo(e))}>Personal</a> | <a style={{cursor: "pointer"}} onClick={this.toggleInfo}>Development</a>
+                <FontAwesomeIcon icon={faUser}></FontAwesomeIcon> <a style={{cursor: "pointer"}} id='startInfo' onClick={((e) => this.toggleInfo(e))}>Personal</a> | <FontAwesomeIcon icon={faLaptop}></FontAwesomeIcon> <a style={{cursor: "pointer"}} onClick={this.toggleInfo}>Profesional</a>
                 </div>
                 {this.renderProfileInformation()}
             </div>
