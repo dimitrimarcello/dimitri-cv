@@ -1,14 +1,16 @@
+import './index.scss';
 import React from 'react';
 import ReactDOM from 'react-dom';
 import Banner from './components/banner';
-import './index.css';
-import Home from './pages/home';
+import IntroductionPage from './pages/introductionPage';
 import reportWebVitals from './reportWebVitals';
 
 ReactDOM.render(
   <React.StrictMode>
-    <Banner></Banner>
-    <Home></Home>
+    <div className='cv-container'>
+      <Banner></Banner>
+      <IntroductionPage></IntroductionPage>
+    </div>
   </React.StrictMode>,
   document.getElementById('root')
 );
