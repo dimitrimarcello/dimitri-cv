@@ -1,17 +1,18 @@
 import './index.scss';
 import React from 'react';
 import ReactDOM from 'react-dom';
-import Banner from './components/banner';
-import IntroductionPage from './pages/introductionPage';
 import reportWebVitals from './reportWebVitals';
+import { BrowserRouter, Route, Routes } from 'react-router-dom';
+import IntroductionPage from './pages/introductionPage';
 
 ReactDOM.render(
-  <React.StrictMode>
-    <div className='cv-container'>
-      <Banner></Banner>
-      <IntroductionPage></IntroductionPage>
-    </div>
-  </React.StrictMode>,
+  <BrowserRouter>
+    <React.StrictMode>
+      <Routes>
+          <Route path='/' element={<IntroductionPage/>} />
+      </Routes>
+    </React.StrictMode>
+  </BrowserRouter>,
   document.getElementById('root')
 );
 

@@ -1,7 +1,70 @@
-.intro-title{
-
+.hide-scroll{
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    
 }
 
-.introduction-page{
-    
+::-webkit-scrollbar {
+    width: 6px;
+}
+
+.cv-container{
+    height: 1005px;
+    display: flex;
+    flex-wrap: wrap;
+    overflow: auto;
+    padding-right: 0px; /* exact value is given in JavaScript code */
+}
+
+.about-me-container{
+    margin-top: 10px;
+    margin-right: 10px;
+    padding-left: 5px;
+    box-shadow: 10px 0 5px -2px rgba(0, 0, 0, 0.349);
+    width: 100%;
+}
+
+.job-tab{
+    margin-top: 10px;
+    margin-right: 10px;
+    padding-left: 5px;
+    width: 100%;
+    box-shadow: 10px 0 5px -2px rgba(0, 0, 0, 0.349);
+}
+
+.job-tab-title{
+    display: inline;
+    margin-top: 0px;
+}
+
+.job-tab-job{
+    text-align: start;
+    display: flex;
+}
+
+.start-line{
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+}
+
+.job-line{
+    width: 50px;
+    object-fit: cover;
+}
+
+.job-skills{
+    margin-left: 30px;
+    margin-top: 3px;
+}
+
+.job-skills h4{
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.job-skills p:first-of-type{
+    margin-top: 0px;
+    margin-bottom: 0px;
 }

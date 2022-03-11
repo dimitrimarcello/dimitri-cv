@@ -1,0 +1,24 @@
+.infoBox{
+    position: absolute;
+    display: inline-block;
+    margin-left: 5px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 10px 0 5px 2px rgba(0, 0, 0, 0.425);
+    border-left: 5px solid rgb(209, 143, 19);
+    padding-left: 7px;
+    padding-right: 7px;
+    min-width: 200px;
+    max-width: 200px;
+    z-index: 99;
+    overflow: auto;
+}
+
+.infodot-container{
+    position: relative;
+    display: inline;
+}
+
+.info-end-title{
+    margin-top: 0px !important;
+    font-weight: lighter;
+}
